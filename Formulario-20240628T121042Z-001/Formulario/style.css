@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin: 20px 20px;
+    color: #666;
+    text-shadow: 3px 3px slateblue;
+}
+
+h2{
+    font-size: 100px;
+    margin: 20px 20px;
+    
+    color: #666;
+    text-shadow: 5px 5px slateblue;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Texto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Texto input{
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid#fff solid #ccc;
+    width: 200px;
+}
+
+.Texto label{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #666;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid#fff;
+    margin-top: 50px;
+    text-align: justify center;
+    width: fit-content;
+    justify-content: space-around;
+}
+
+.direita{
+    display: flex;
+    margin: 50px 50px 50px;
+    justify-content: right;
+    flex-wrap: wrap ;
+}
+.esquerda{
+    display: flex;
+    margin: 50px 50px 50px;
+    justify-content: left;
+}
