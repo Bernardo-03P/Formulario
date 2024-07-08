@@ -2,9 +2,10 @@ body {
     margin: 0;
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: black;
     color: white;
-    background-image: url("imagens/foto.jpg")
+    background-position: center;
+    background-size: 100%;
+    background-image: url("imagens/fé.jpg")
 }
 .marg{
     border: 2px solid rgb(255, 255, 255);

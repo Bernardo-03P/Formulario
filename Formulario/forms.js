@@ -12,4 +12,6 @@ function Enviar(){
            Sua senha é: ${Senhauser}\n
            Seu modelo de carro escolhido é: ${carros}\n
            Seu modelo de moto escolhido é: ${motos}`)
+
+           window.location.href=`tela2.html`
 }

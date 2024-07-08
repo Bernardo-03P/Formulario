@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    background-image: url("imagens/jsjs.jpg");
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+.galeria{
+    border-radius: 1px;
+}
+.super{
+    display: flex;
+    justify-content: left; 
+}
+.esport{
+    display: flex;
+    justify-content: right;
+}
+.motsport{
+    display: flex;
+    justify-content: left;
+}
+.motosup{
+    display: flex;
+    justify-content: right;
+}
+img{
+    width: 500px;
+    height: 320px;
+    border: 5px solid rgb(199, 8, 8);
+   
+}
+h2{
+    padding-right: 950px;
+    font-size: 60px;
+}
+h3{
+    padding-left: 950px;
+    font-size: 60px;
+}
+h1{
+    font-size: 50px;
+}
+button{
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+}
