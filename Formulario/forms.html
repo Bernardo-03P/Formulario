@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="fundo">
+        
+    </div>
     <div class="marg">
-    <h2>MotorCycle and Cars</h2>
+    <h2> Formulario Veiculos </h2>
 
             <div class="container1">
         <div class="Texto">
     <label for="nome">Nome --</label>
-    <input type="text" id="nome" name="nome" value="nome">
+    <input type="text" id="Nome" name="nome" value="nome">
 </div>
         <div class="Texto">
     <label for="nome">Email -- </label>
@@ -27,51 +30,58 @@
             <div class="container2">
 
             <h1>Escolha uma moto ou carro:</h1>
-
+        <div class="radsup">
     <label for="Supercarros">SuperCarros</label>
     <input type="radio" id="Supercarros" name="carro" value="Supercarros">
-
-        
+</div>
+        <div class="radesporto">
     <label for="Carros esportivos">Carros esportivos</label>
     <input type="radio" id="Carros esportivos" name="carro" value="Carros esportivos">
-
+</div>
+    <div class="radantig">
         
     <label for="Motos antigas">Motos antigas </label>
     <input type="radio" id="Motos antigas" name="moto" value="Motos antigas">
-
-       
+</div>
+        <div class="radesporta">
     <label for="Motos esportivas">Motos esportivas</label>
     <input type="radio" id="Motos esportivas" name="moto" value="Motos esportivas">
-
+</div>
             </div>
-
+        <h3>🏍️ Modelos 🏎️</h3>
             <div class="check">
+                <div class="super">
                 <input type="checkbox" id="Jesko" name="newsletter" value="Jesko>
                 <label for="Jesko">Koenigsegg Jesko</label>
 
                 <input type="checkbox" id="Laferrari" name="newsletter" value="Laferrari">
                 <label for="Laferrari">Ferrari Laferrari</label><br>
-
+            </div>
+                <div class="esport">
                 <input type="checkbox" id="SS 69" name="newsletter" value="SS 69">
                 <label for="SS 69">Camaro SS 69</label>
 
                 <input type="checkbox" id="Demon" name="newsletter" value="Demon">
-                <label for="Demon">Dodge Challenger Demon</label><br>
-
+                <label for="Demon">Challenger Demon</label><br>
+            </div>
+                <div class="antiga">
                 <input type="checkbox" id="Sportster S" name="newsletter" value="Sportster S">
                 <label for="Sportster S">Sportster S</label>
 
                 <input type="checkbox" id="Fat Bob" name="newsletter" value="Fat Bob">
                 <label for="Fat Bob">Fat Bob 114</label><br>
-
+            </div>
+            <div class="esportivas">
                 <input type="checkbox" id="CBR 1000" name="newsletter" value="CBR 1000">
                 <label for="boxcheck">CBR 1000 R-R</label>
 
                 <input type="checkbox" id="ZX-10R" name="newsletter" value="ZX-10R"> 
                 <label for="ZX-10R">Ninja ZX-10R</label>
-            </div>  
+            </div>
+            </div>
+            <button onclick="Enviar()">Enviar</button>  
         </div>
-    
+        <script src="forms.js"></script>
 </body>
 </html>
 
